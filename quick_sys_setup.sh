@@ -19,10 +19,8 @@ accessPermission() {
         
         ls -al
         ls -l countdown.sh
-        ls -l reboot.sh
 
         sudo chmod +x ./countdown.sh
-        sudo chmod +x ./reboot.sh
         sudo chmod +x ./docker_tomcat.sh
 
         sudo ./countdown.sh
@@ -87,7 +85,7 @@ logout() {
         sudo ./countdown.sh
         sudo apt update
         clean
-        ./reboot.sh
+        sudo reboot
     else
         echo -e "System was not rebooted..."
     fi
