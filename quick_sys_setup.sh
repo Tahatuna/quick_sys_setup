@@ -23,7 +23,6 @@ accessPermission() {
 
         sudo chmod +x ./countdown.sh
         sudo chmod +x ./reboot.sh
-        sudo chmod +x ./other_programming.sh
         sudo chmod +x ./docker_tomcat.sh
 
         sudo ./countdown.sh
